@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Dependencies: 
 
-* Ruby version
+Ruby: 3.1.1
+Rails: 7.2.2
+database: sqllite
 
-* System dependencies
 
-* Configuration
+Steps to run test cases
 
-* Database creation
 
-* Database initialization
+step1: git clone https://github.com/Nageshwardahare/task_incubyte.git
 
-* How to run the test suite
+step2: cd task_incubyte
 
-* Services (job queues, cache servers, search engines, etc.)
+step3: bundle install
 
-* Deployment instructions
+step4: bundle exec rspec spec/services/string_calculator_spec.rb
 
-* ...
+
+Note: 
+
+method present in  lib/string_calculator.rb
+
+and test cases present in spec/services/string_calculator_spec.rb
